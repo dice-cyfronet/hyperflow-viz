@@ -1,0 +1,26 @@
+{
+  "name": "hyperflow-viz",
+  "version": "1.0.0",
+  "description": "Visualize Hyperflow workflow network using GraphViz",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dice-cyfronet/hyperflow-viz.git"
+  },
+  "keywords": [
+    "workflow"
+  ],
+  "author": "Kamil Figiela",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dice-cyfronet/hyperflow-viz/issues"
+  },
+  "homepage": "https://github.com/dice-cyfronet/hyperflow-viz#readme",
+  "dependencies": {
+    "graphviz": "git+https://github.com/michalgm/node-graphviz.git#7571a672ce7e4b6567fb75b8b79dbf5c57970340"
+  },
+  "bin" : { "hyperflow-viz" : "./index.js" }
+}
